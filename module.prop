@@ -1,7 +1,7 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v3.7
-versionCode=19
+id=odm-edit
+name=OdmCameraHack
+version=v1
+versionCode=1
 author=Developer3
 description=Magisk Module For change some camera options in /odm/etc/camera
-updateJson=https://raw.githubusercontent.com/MrNinso/MMT-OdmCameraHack/master/update.json
+updateJson=https://raw.githubusercontent.com/MrNinso/MMT-OdmCameraHack/master/module.json
