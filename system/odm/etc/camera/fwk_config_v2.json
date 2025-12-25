@@ -1,0 +1,370 @@
+{
+    "file_version": 2023101801,
+    "default": {
+        "orms_need_observe_third_package_list": [
+            "com.tencent.mm",
+            "com.tencent.mobileqq",
+            "com.ss.android.ugc.aweme",
+            "com.smile.gifmaker",
+            "com.meitu.meiyancamera",
+            "com.gorgeous.lite",
+            "com.mt.mtxx.mtxx",
+            "com.kwai.m2u",
+            "com.campmobile.snowcamera",
+            "com.lemon.faceu",
+            "com.kwai.videoeditor",
+            "com.lemon.lv",
+            "com.motioncam.pro"
+        ],
+        "orms_need_observe_third_activity_list": [
+            "com.tencent.mm.plugin.voip.ui.VideoActivity",
+            "com.tencent.av.ui.AVActivity"
+        ],
+        "need_observe_third_activity_list": [
+            "com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordNewActivity",
+            "com.yxcorp.gifshow.camera.record.CameraActivity",
+            "com.meitu.myxj.selfie.merge.activity.SelfieCameraActivity",
+            "com.light.beauty.mainpage.MainActivity",
+            "com.mt.mtxx.camera.view.CameraActivity",
+            "com.kwai.m2u.main.CameraActivity",
+            "com.linecorp.b612.android.activity.ActivityCamera",
+            "com.lemon.faceu.business.mainpage.MainActivity",
+            "com.kwai.videoeditor.activity.StartCreateActivity",
+            "com.vega.recorder.LvRecordActivity"
+        ],
+        "need_observe_oplus_float_window_show_package": [
+            "com.tencent.mm",
+            "com.tencent.mobileqq"
+        ],
+        "isSkipItsVideoStabilization": true,
+        "feature_motor_enable": false,
+        "feature_aps_enable": true,
+        "feature_auth_enable": true,
+        "feature_cts_enable": true,
+        "feature_3a_enable": true,
+        "feature_evication_enable": true,
+        "feature_get_temperature_enable": true,
+        "feature_resolution_enable": true,
+        "feature_government_enalbe": true,
+        "feature_sound_enable": true,
+        "feature_flash_enable": true,
+        "feature_fps_enable": true,
+        "feature_explorer_enable": true,
+        "feature_rio_enable": true,
+        "feature_lazy_finish_fonfiguration_enable": true,
+        "explorer_override_cost": 99,
+        "feature_aon_enable": true,
+        "feature_multicamera_enable": true,
+        "feature_syscamera_override_dataspace_enable": true,
+        "feature_camerasdk_override_dataspace_enable": true,
+        "feature_exceed_sensor_size": true,
+        "limit_3rd_app_size": [
+            "com.mt.mtxx.mtxx.sub.preview",
+            "com.benqu.wuta.sub.preview",
+            "com.huajiao.camera.sub.preview",
+            "com.tencent.funcam.sub.preview",
+            "com.mt.mtxx.mtxx.main.preview",
+            "com.benqu.wuta.main.preview",
+            "com.huajiao.camera.main.preview",
+            "com.gorgeous.lite.main.preview",
+            "com.meitu.meiyancamera.main.preview",
+            "com.meitu.wheecam.main.preview",
+            "com.huajiao.camera.sub.Texture"
+        ],
+        "limit_3rd_app_size_byLevel": [
+            "com.fingogroup.fingo.level1",
+            "com.rapido.rider.level1"
+        ],
+        "skip_rus_check_list": [
+            "android.camera.cts",
+            "com.android.cts.verifier",
+            "android",
+            "com.oplus.engineercamera"
+        ],
+        "forbit_3rd_app_reconfigure": [
+            "com.tencent.wework",
+            "com.tencent.mobileqq"
+        ],
+        "skip_front_preview_limit_list": [
+            "com.oplus.camera",
+            "android.camera.cts",
+            "com.android.cts.verifier",
+            "com.tencent.qqmusic"
+        ],
+        "disable_camera_shutter_sound_app_list": [
+            "com.facebook.orca",
+            "com.facebook.orca",
+            "com.instagram.android",
+            "com.facebook.katana"
+        ],
+        "defaultMaxPrevWidthFront": 1920,
+        "defaultMaxPrevHeightFront": 1080,
+        "defaultMaxPrevWidthBack": 3168,
+        "defaultMaxPrevHeightBack": 1440,
+        "defaultMaxPreviewMask": 2109
+    },
+    "org.codeaurora.ims": {
+        "isFreeDomEvictionPackge": true,
+        "filterSizes": [
+            "1206x540"
+        ],
+        "filterOut": 1
+    },
+    "android": {
+        "isFreeDomEvictionPackge": true
+    },
+    "com.tencent.mm": {
+        "app_enable_rio": true,
+        "app_disable_fb_evict": true,
+        "supportExplorerCameraMask": 3,
+        "scan_zoom_value": 1.26,
+        "scan_activity_name": "com.tencent.mm.plugin.scanner.ui.BaseScanUI",
+        "app_disable_fb_activity": [
+            "com.tencent.mm.plugin.recordvideo.activity.MMRecordUI"
+        ]
+    },
+    "com.instagram.android": {
+        "supportExplorerCameraMask": 3,
+        "app_enable_rio": true
+    },
+    "com.tencent.zebra": {
+        "upBoundW": 1920,
+        "upBoundH": 1080
+    },
+    "com.android.hwmirror": {
+        "upBoundW": 3840,
+        "upBoundH": 2160
+    },
+    "com.marykay.vmo.my": {
+        "upBoundW": 1920,
+        "upBoundH": 1080
+    },
+    "net.one97.paytm": {
+        "upBoundW": 1920,
+        "upBoundH": 1080
+    },
+    "com.tencent.av.ui.AVActivity": {
+        "minVideoCallFps": 15,
+        "maxVideoCallFps": 15
+    },
+    "im.thebot.messenger": {
+        "needLimitFpsForAPI1": true,
+        "upBoundW": 1920,
+        "upBoundH": 1080
+    },
+    "com.pantum.mobileprint": {
+        "upBoundW": 1920,
+        "upBoundH": 1080
+    },
+    "com.xiaomi.mitv.phone.tvassistant": {
+        "upBoundW": 3216,
+        "upBoundH": 1440
+    },
+    "com.alibaba.android.rimet": {
+        "upBoundW": 1920,
+        "upBoundH": 1080
+    },
+    "com.kufeng.hj.enjoy": {
+        "upBoundH": 1080
+    },
+    "com.gpsmapcamera.geotagginglocationonphoto": {
+        "upBoundW": 1920,
+        "upBoundH": 1080,
+        "filterSizes": [
+            "1920x1080",
+            "1600x800",
+            "1280x720",
+            "864x480",
+            "800x400",
+            "720x480",
+            "640x360"
+        ],
+        "filterOut": 1
+    },
+    "com.tencent.mobileqq": {
+        "app_enable_rio": true
+    },
+    "com.ss.android.ugc.aweme": {
+        "app_enable_rio": true
+    },
+    "com.facebook.katana": {
+        "app_enable_rio": true
+    },
+    "com.facebook.orca": {
+        "app_enable_rio": true
+    },
+    "com.whatsapp.w4b": {
+        "app_enable_rio": true
+    },
+    "com.ss.android.ugc.trill": {
+        "app_enable_rio": true
+    },
+    "com.oplus.engineercamera": {
+        "filterSizes": [
+            "4608x3456",
+            "4160x3120",
+            "4160x2340",
+            "4096x2160",
+            "2688x1512",
+            "2592x1944",
+            "2592x1940",
+            "2592x1458",
+            "2592x1232",
+            "2592x1196",
+            "2592x1920"
+        ],
+        "filterOut": 1
+    },
+    "com.twitter.android": {
+        "needLimitFpsForAPI1": true,
+        "upBoundW": 1920,
+        "upBoundH": 1080,
+        "minSizeRatio": 133,
+        "maxSizeRatio": 177
+    },
+    "com.microsoft.office.outlook": {
+        "needlimitsize_16_9": true,
+        "3rdApp_limit_size": true,
+        "upBoundW": 1920,
+        "upBoundH": 1080
+    },
+    "com.whatsapp": {
+        "needlimitSizeForSurface": true,
+        "limitWidthForSurface": 1920,
+        "limitHeightForSurface": 1080,
+        "app_enable_rio": true,
+        "app_enable_fb_activity": [
+            "com.whatsapp.voipcalling.VoipActivityV2"
+        ],
+        "app_disable_fb_activity": [
+            "com.whatsapp.camera.CameraActivity",
+            "com.whatsapp.qrcode.contactqr.ContactQrActivity",
+            "com.whatsapp.statuscomposer.ConsolidatedStatusComposerActivity",
+            "com.whatsapp.status.composer.ConsolidatedStatusComposerActivity"
+        ]
+    },
+    "com.discord": {
+        "app_enable_fb_activity": [
+            "com.discord.main.MainActivity"
+        ]
+    },
+    "com.microsoft.teams": {
+        "app_enable_fb_activity": [
+            "com.microsoft.skype.teams.views.activities.PreJoinActivity",
+            "com.microsoft.skype.teams.views.activities.InCallActivity"
+        ],
+        "app_disable_fb_activity": [
+            "com.microsoft.office.lens.lenscommon.ui.LensActivity"
+        ]
+    },
+    "com.tencent.wework": {
+        "needLimitFpsForAPI1": false
+    },
+    "com.skype.raider": {
+        "needLimitFpsForAPI1": true
+    },
+    "com.vkontakte.android": {
+        "needLimitFpsForAPI1": true
+    },
+    "jp.naver.linecamera.android": {
+        "needLimitFpsForAPI1": true
+    },
+    "com.blink.academy.nomopro": {
+        "needLimitFpsForAPI1": true
+    },
+    "com.microsoft.office.excel": {
+        "needLimitFpsForAPI1": true
+    },
+    "com.eg.android.AlipayGphone": {
+        "feature_resolution_enable": true,
+        "needLimitFpsForAPI1": true,
+        "upBoundW": 1920,
+        "upBoundH": 1080
+    },
+    "com.mt.mtxx.mtxx": {
+        "3rdApp_limit_size": true,
+        "upBoundW": 1920,
+        "upBoundH": 1440
+    },
+    "com.smile.gifmaker": {
+        "app_enable_rio": true,
+        "adjustInvalidFpsForAPI1": true
+    },
+    "com.taobao.taobao": {
+        "checkToAddPreviewCallbackForAPI1": true
+    },
+    "com.example.anchortooldemo": {
+        "checkToAddPreviewCallbackForAPI1": true
+    },
+    "com.manboker.headportrait": {
+        "needLimitFpsForAPI1": true,
+        "limitPicture": true,
+        "minSizeRatio": 177,
+        "maxSizeRatio": 177,
+        "upBoundW": 1920,
+        "upBoundH": 1080,
+        "filterSizes": [
+            "2520x1080",
+            "2412x1080",
+            "2400x1080",
+            "2376x1080"
+        ],
+        "filterOut": 1
+    },
+    "android.camera.cts": {
+        "limit_exposure_time_parameter": true,
+        "limit_physical_multi_resolution_size": true,
+        "filterSizes": ["4096x3072","4000x3008","4000x3000","3840x2160","3840x1644","3280x1856","3000x3000","3264x2448","2880x2160","2592x1944","3280x2464","2560x1440","2440x2268","2328x1748","2160x1080","1920x1440","1920x1080","1600x1200","1440x1080","1280x960","1280x720","640x640","720x540","720x480","640x480","352x288","320x240","176x144"],
+        "filterIn": 1,
+        "limitThumbnailSizeListForCts": [
+            0,
+            0,
+            176,
+            144,
+            213,
+            160,
+            240,
+            144,
+            256,
+            144,
+            240,
+            160,
+            240,
+            562,
+            256,
+            154,
+            246,
+            184,
+            250,
+            188,
+            352,
+            160,
+            240,
+            240,
+            400,
+            180,
+            320,
+            240,
+            374,
+            282
+        ],
+        "limitSizeListForCtsPhysical": [
+            4096,
+            3072
+        ]
+    },
+    "com.android.cts.verifier": {
+        "forceVideoStablilization": true,
+        "limit_exposure_time_parameter": true,
+        "filterSizes": ["1600x800","800x400","804x360","792x360","640x360","2688x1512","2560x1440","2304x1296","2048x1080","480x270","368x368"],
+        "filterOut": 1,
+        "forceZoomRange": true,
+        "camIdZoomRanges": [
+            "0","0.9","5.0",
+            "1","0.9","1.5"
+        ],
+        "camIdAvailableModes": [
+            -1, 0, 2
+        ]
+    }
+}

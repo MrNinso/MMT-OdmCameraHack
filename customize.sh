@@ -36,6 +36,8 @@ REPLACE_EXAMPLE="
 
 # Construct your own list here
 REPLACE="
+/system/odm/etc/camera/fwk_config_v2.json
+/system/odm/etc/camera/fwk_config.json
 "
 
 ##########################################################################################
