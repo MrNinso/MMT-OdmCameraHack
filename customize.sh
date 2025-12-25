@@ -21,8 +21,9 @@ fi
 PATH=/system/etc
 ui_print "- Patching hosts file"
 mkdir -p $MODPATH$PATH
-mv -f $MODPATH/config/fwk_config.json $MODPATH$PATH
-mv -f $MODPATH/config/fwk_config_v2.json $MODPATH$PATH
+mv -f $MODPATH/fwk_config.json $MODPATH$PATH
+mv -f $MODPATH/fwk_config_v2.json $MODPATH$PATH
 
 # Clean up
-rm -rf $MODPATH/hosts
+rm -rf $MODPATH/fwk_config.json
+rm -rf $MODPATH/fwk_config_v2.json
