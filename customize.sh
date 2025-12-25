@@ -26,8 +26,8 @@ cp -f $MODPATH/fwk_config_v2.json $MODPATH$PATH
 
 PATH_FINAL=/odm/etc/camera
 
-cp -f $MODPATH/fwk_config.json $MODPATH$PATH_FINAL
-cp -f $MODPATH/fwk_config_v2.json $MODPATH$PATH_FINAL
+mount --bind $MODPATH$PATH/fwk_config.json $MODPATH$PATH_FINAL/fwk_config.json
+mount --bind $MODPATH$PATH/fwk_config_v2.json $MODPATH$PATH_FINAL/fwk_config_v2.json
 
 # Clean up
 rm -rf $MODPATH/fwk_config.json
