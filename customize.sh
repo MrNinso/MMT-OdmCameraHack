@@ -18,7 +18,7 @@ abort    "   Aborting!"
 fi
 
 # Patch default hosts file
-PATH=/odm/etc/camera
+PATH=/system/etc
 ui_print "- Patching hosts file"
 mkdir -p $MODPATH$PATH
 mv -f $MODPATH/config/fwk_config.json $MODPATH$PATH
