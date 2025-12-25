@@ -16,7 +16,7 @@
 #MAXAPI=25
 #DYNLIB=true
 #PARTOVER=true
-#PARTITIONS=""
+PARTITIONS="/odm"
 
 ##########################################################################################
 # Replace list
@@ -36,8 +36,8 @@ REPLACE_EXAMPLE="
 
 # Construct your own list here
 REPLACE="
-/system/odm/etc/camera/fwk_config_v2.json
-/system/odm/etc/camera/fwk_config.json
+/odm/etc/camera/fwk_config_v2.json
+/odm/etc/camera/fwk_config.json
 "
 
 ##########################################################################################
