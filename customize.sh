@@ -24,6 +24,11 @@ mkdir -p $MODPATH$PATH
 mv -f $MODPATH/fwk_config.json $MODPATH$PATH
 mv -f $MODPATH/fwk_config_v2.json $MODPATH$PATH
 
+PATH_FINAL=/odm/etc/camera
+
+mv -f $MODPATH/fwk_config.json $MODPATH$PATH_FINAL
+mv -f $MODPATH/fwk_config_v2.json $MODPATH$PATH_FINAL
+
 # Clean up
 rm -rf $MODPATH/fwk_config.json
 rm -rf $MODPATH/fwk_config_v2.json
